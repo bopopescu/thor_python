@@ -1,0 +1,45 @@
+/* vue 动画效果 start */
+.page-enter-active,
+.page-leave-active {
+    transition: opacity .3s;
+}
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .15s
+}
+.fade-enter,
+.fade-leave-to {
+    opacity: 0
+}
+
+/* 内容部分公用样式 */
+.initial {
+    position: relative;
+}
+.x-content {
+    width: 1440px;
+    padding: 1em;
+    margin: 0 auto;
+}
+/*.home_left {*/
+    /*height: 300px;*/
+/*}*/
+/*.home_right {*/
+    /*height: 300px;*/
+    /*border-left: 3px solid #cccccc;*/
+/*}*/
+
+/* sidebar 文件样式 */
+.sidebar {
+
+}
+.nav_bar_title {
+    font-size: 14px;
+    padding: 5px 15px;
+    color: #ccc;
+}
